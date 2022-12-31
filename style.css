@@ -288,3 +288,8 @@ header .button:hover a {
     font-size: 2em;
   }
 }
+@media (min-width: 1700px) {
+  #portfolio {
+    perspective: 100rem;
+  }
+}
