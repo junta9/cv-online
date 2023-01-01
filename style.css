@@ -271,7 +271,7 @@ header .button:hover a {
 }
 
 footer {
-  background-color: #fafafa;
+  background-color: #edf3ff;
   color: #283655;
   padding: 20px 0 10px 0;
   text-align: center;
@@ -281,9 +281,11 @@ footer h2 {
 }
 form {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 500px;
 }
-input, textarea, button {
+input,
+textarea,
+button {
   border: 1px solid #ccc;
   border-radius: 8px;
   width: 55%;
@@ -292,15 +294,16 @@ input, textarea, button {
   font-size: 1.2em;
 }
 textarea {
-  height: 120px;  
+  height: 120px;
 }
 button {
   font-size: 1.5em;
-  background-color: #EDF3FF;
+  background-color: #283655;
+  color: #fafafa;
 }
 button:hover {
-  background-color: #283655;
-  color: #fffae1;
+  background-color: #5f74a2;
+  color: #edf3ff;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
