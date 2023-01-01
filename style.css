@@ -327,7 +327,43 @@ button:hover {
     padding: 60px 0 10px 0;
   }
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  #langages {
+    width: 85%;
+    height: 400px;
+    padding: 0 50px 0 5px;
+  }
+  #langages h3 {
+    font-size: 1.5em !important;
+  }
+  #langages div img {
+    height: 50px !important;
+    width: 50px !important;
+    padding: 5px;
+    margin: 20px;
+  }
+  #formation {
+    height: 400px;
+  }
+  #formation h3 {
+    font-size: 1.5em;
+  }
+  #ecole {
+    width: 100%;
+    height: auto;
+  }
+  #ecole div img {
+    height: 25px;
+    width: 80%;
+    padding: 5px;
+  }
+  #philiance img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  #parcours {
+    margin: 500px auto 100px auto;
   }
 }
 @media (min-width: 1700px) {
