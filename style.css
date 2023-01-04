@@ -217,7 +217,7 @@ header .button:hover a {
   padding-right: 10px; */
   transform: rotateY(-50deg);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   z-index: 1;
 }
@@ -251,18 +251,11 @@ header .button:hover a {
   grid-area: 1 / 2 / 2 / 3;
 }
 .projet:nth-child(3) {
-  grid-area: 1 / 3 / 2 / 4;
-}
-.projet:nth-child(4) {
   grid-area: 2 / 1 / 3 / 2;
 }
-.projet:nth-child(5) {
+.projet:nth-child(4) {
   grid-area: 2 / 2 / 3 / 3;
 }
-.projet:nth-child(6) {
-  grid-area: 2 / 3 / 3 / 4;
-}
-
 .projet a {
   margin: 0;
   padding: 0;
