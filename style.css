@@ -17,7 +17,8 @@ body {
 }
 
 h2,
-h3 {
+h3,
+footer a {
   font-family: "audiowide", cursive;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -268,9 +269,14 @@ footer {
   color: #283655;
   padding: 20px 0 10px 0;
   text-align: center;
+  padding-bottom: 50px;
 }
-footer h2 {
-  font-size: 2em;
+footer a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #283655;
+
+
 }
 form {
   margin: 0 auto;
@@ -321,6 +327,10 @@ button:hover {
   }
   h2 {
     font-size: 1.5em;
+  }
+  footer a {
+    font-size: 1.5em;
+
   }
   #langages {
     width: 85%;
