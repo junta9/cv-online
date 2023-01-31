@@ -45,12 +45,13 @@ nav-link {
 header {
   text-align: center;
   height: 100vh;
+  margin-bottom: 200px;
 }
 .fond-bg {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 800px;
   width: 100%;
   background: no-repeat fixed 50% 50%;
   background-size: contain;
@@ -318,9 +319,14 @@ button:hover {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1024px) {
+
   body {
     overflow-x: hidden;
+  }
+  header {
+    height: 1000px!important;
+    margin-bottom: 50px!important;
   }
   h1 {
     padding: 60px 0 10px 0;
@@ -333,7 +339,8 @@ button:hover {
 
   }
   #langages {
-    width: 85%;
+    margin-top: 200px;
+    width: 70%;
     height: 400px;
     padding: 0 50px 0 5px;
   }
@@ -344,10 +351,10 @@ button:hover {
     height: 50px !important;
     width: 50px !important;
     padding: 5px;
-    margin: 20px;
+    margin: 15px;
   }
   #formation {
-    height: 400px;
+    height: 500px;
   }
   #formation h3 {
     font-size: 1.5em;
@@ -366,7 +373,7 @@ button:hover {
     margin-bottom: 10px;
   }
   #parcours {
-    margin: 500px auto 100px auto;
+    margin: 550px auto 100px auto;
   }
 }
 @media (min-width: 1700px) {
