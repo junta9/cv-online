@@ -326,7 +326,10 @@ button:hover {
   }
   header {
     height: 1000px!important;
-    margin-bottom: 50px!important;
+    margin-bottom: 200px!important;
+  }
+  .fond-bg {
+    height: 800px!important;
   }
   h1 {
     padding: 60px 0 10px 0;
