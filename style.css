@@ -30,7 +30,7 @@ nav-link {
 
 /* ******************HEADER*********************** */
 
-/* .navbar {
+.navbar {
   background-color: #fafafa;
   opacity: 0.9;
   height: 42px;
@@ -40,7 +40,7 @@ nav-link {
   width: 80% !important;
   margin: 0 auto;
   justify-content: space-between;
-} */
+}
 
 header {
   text-align: center;
@@ -117,7 +117,7 @@ svg {
 }
 
 header .button {
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 header .button a {
@@ -384,3 +384,8 @@ button:hover {
     perspective: 100rem;
   }
 }
+
+/* <!-- <h5><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+              </svg> 42 ans</h5> --> */
